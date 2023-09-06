@@ -9,7 +9,8 @@ try:
     p = Playlist(input("Enter Playlist URL: "))
 except:
     pass
-#global links
+
+
 print("Playlist Name : {}\nChannel Name  : {}\nTotal Videos  : {}\nTotal Views   : {}".format(p.title,p.owner,p.length,p.views))
 links = []
 size = 0
